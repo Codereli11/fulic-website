@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('badge.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    height: 100vh;
+}
+
+/* Header, Section, and Footer Styles */
+header, section, footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 2em;
+    text-align: center;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 1em;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    section {
+        margin: 0.5em;
+    }
+}
